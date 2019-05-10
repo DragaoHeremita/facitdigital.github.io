@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- AS 3 TAGS A CIMA DEVEM SER AS PRIMEIRAS TAGS PARA EVITAR ERROS -->
+        <title>Sic Facit</title>
+
+        <!-- Bootstrap -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Fonte de icones oficial do google disponível em -> https://material.io/icons/ -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Para funcionamento do HTML5 no Internet Exploder LixoSoft 8 -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <style>
+            body { 
+                background: url(images/gears.jpg) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            .navbar{
+                opacity: 0.9;
+            }
+            .jumbotron{
+                color:black;
+                opacity: 0.9;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">Sic Facit</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto">
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="web.html">Web Design<span class="sr-only">web design</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="games.html">Games<span class="sr-only">Games e gameficação</span></a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="auto.html">Automação<span class="sr-only">Automação</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato<span class="sr-only">Contato</span></a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:(11)995969340"><i class="material-icons">phone</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:dragaoheremita@gmail.com"><i class="material-icons">mail_outline</i></a>
+                </li>
+                
+            </ul>
+            </div>
+        </nav>
+      
+            
+        <div class="container" style="padding-top: 10px">
+            <div class="row justify-content-center">
+                <div class="jumbotron col-md-8 ">
+                    <h1 style="text-align:center">Sic Facit<span class="h2"> Tecnologia</span></h1>
+                    <hr>
+                    
+                    <ul style="list-style-image: url('images/s-icon.png');">    
+                        <li>Sites e sistemas web responsivos desenvolvidos com as linguagens mais atuais</li>
+                        <li>Soluções tecnológicas de simples usabilidade facil integração e manutenção</li>
+                        <li>Realidade aumentada, Realidade Virtual, Visualizações Arquitetônicas em 3D</li>
+                        <li>Games desenvolvidos com as mais modernas e atuais engines do mercado</li>  
+                        <li>Sistemas de IoT (Internet das Coisas) residenciais e comerciais</li>
+                        <li>Cursos, aulas particulares e palestras</li>
+                    </ul>
+                    
+                    <p></p>
+                    <br />
+                    <hr>
+                    
+                    <div style="text-align:center">
+                        <div class="btn-group" role="group" aria-label="btns da pagina inicial" >
+                            <a href="auto.html" type="button" class="btn btn-outline-dark" id="auto">
+                                <i class="material-icons">settings_power</i>
+                            </a>
+                            <a href="web.html" type="button" class="btn btn-outline-dark" id="web">
+                                <i class="material-icons">language</i>
+                            </a>
+                            <a href="games.html" type="button" class="btn btn-outline-dark" id="games">
+                                <i class="material-icons">videogame_asset</i>
+                            </a>
+                            <a href="contato.html" type="button" class="btn btn-outline-dark" id="contato">
+                                <i class="material-icons">place</i>
+                            </a>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+       
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
